@@ -1,0 +1,38 @@
+
+# 🛫 Análisis de Retención y Comportamiento: Programa de Lealtad de Aerolínea
+
+## 📝 Introducción
+En un mercado tan competitivo como el sector aéreo, entender quiénes son tus clientes y cómo interactúan con tus beneficios es la diferencia entre el éxito y el estancamiento. Este proyecto analiza el comportamiento de los usuarios de una aerolínea, integrando datos de **actividad de vuelos** con perfiles de **fidelización (Loyalty)**.
+
+A través de este análisis, buscamos responder preguntas críticas: ¿Quién es nuestro cliente más valioso? ¿Qué factores impulsan el canje de puntos? ¿Cómo varían las reservas a lo largo del año? El objetivo final es proporcionar una base sólida de datos para que el equipo de Marketing y Estrategia pueda optimizar el programa de lealtad y aumentar la retención.
+
+## 🛠️ Tecnologías Utilizadas
+* **Python** 🐍 (Numpy, Scipy)
+* **Pandas** para la manipulación y limpieza de datos.
+* **Matplotlib & Seaborn** para la creación de visualizaciones de alto impacto.
+
+## 📁 Estructura del Proyecto
+
+El análisis se divide en tres fases lógicas, representadas en los siguientes Notebooks:
+
+1.  **Fase 1: Exploración y Limpieza** 
+    * **Proceso:** Unión de tablas de vuelos y lealtad, tratamiento de nulos (imputación y limpieza) y estandarización de tipos.
+2.  **Fase 2: Análisis Estadístico** 
+    * **Proceso:** Análisis descriptivo, identificación de valores atípicos (outliers) en salarios y estudios de correlación.
+3.  **Fase 3: Visualización de Datos** 
+    * **Proceso:** Creación de gráficos para identificar patrones estacionales, perfiles demográficos y distribución geográfica.
+
+## 💡 Conclusiones Principales
+
+* **Estacionalidad:** Las reservas de vuelos muestran una concentración crítica en los meses de verano (**Julio y Agosto**), permitiendo planificar campañas de refuerzo en temporadas bajas.
+* **Perfil del Cliente:** La mayor parte de la base de datos se concentra en **Ontario**, con un perfil educativo mayoritario de nivel **Bachelor**.
+* **Sistema de Puntos:** Se detectó una correlación perfecta entre puntos acumulados y distancia, lo que valida la integridad del sistema de recompensas actual.
+* **Oportunidad de Mejora:** Un alto porcentaje de clientes (94%) utiliza la inscripción "Standard", lo que sugiere un área de oportunidad para incentivar planes de lealtad premium.
+
+
+
+
+
+
+
+
